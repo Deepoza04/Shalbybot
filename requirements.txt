@@ -1,0 +1,7 @@
+gradio==4.29.0
+huggingface_hub==0.25.2
+langchain
+langchain-community
+chromadb
+sentence-transformers
+pypdf
