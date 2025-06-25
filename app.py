@@ -1,6 +1,6 @@
 import os
-import gradio as gr
-from huggingface_hub import InferenceClient
+os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"  # Disable telemetry
+from gradio import Interface, Textbox, State  # Lightweight import
 from pipeline import get_retrieval_answer
 
 client = InferenceClient("HuggingFaceH4/zephyr-7b-beta")
