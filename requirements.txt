@@ -1,7 +1,8 @@
-gradio==4.29.0
-huggingface_hub==0.25.2
-langchain
-langchain-community
-chromadb
-sentence-transformers
-pypdf
+gradio==3.50.2
+beautifulsoup4==4.12.3
+requests==2.31.0
+langchain==0.0.347
+langchain-community==0.0.11
+sentence-transformers==2.2.2
+chromadb==0.4.15
+pypdf==3.17.4
